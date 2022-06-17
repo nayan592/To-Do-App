@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  font-size: 67%;
+}
+
+.main-div {
+  min-height: 100vh;
+  background: #9fb0b7;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.child-div {
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.title{
+  margin-bottom: 30px;
+}
+input {
+
+   min-width: 40rem;
+   height: 3.4rem;
+  padding: 2rem 1.2rem;
+  font-size: 1.8rem;
+ 
+}
+
+.todo-btn {
+  width: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa {
+  margin-left: -2.5rem;
+  cursor: pointer;
+  pointer-events: auto;
+  background-color: #fff;
+  color: #666;
+  font-size: 1.5rem;
+}
+.fa:hover, .fa-trash-alt:hover,.fa-edit:hover{
+  color: rgb(230, 47, 92);
+}
+
+
+
+.showItems {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.eachItem {
+  background: #fff;
+  padding: 1.2rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.7rem;
+  margin-left: 1rem;
+  min-width: 40rem;
+  word-break: break-word;
+  background: rgb(66, 108, 215);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eachItem:hover {
+  background: rgb(104, 217, 205);
+  color: rgb(150, 226, 183);
+}
+
+.showItems .eachItem h3 {
+  padding-left: 1rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.fa-trash-alt,
+.fa-edit {
+  
+  cursor: pointer;
+  pointer-events: auto;
+ 
+  color: rgb(251, 251, 251);
+  
+  font-size: 2rem;
+}
+
+
+
+.btn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.btn:hover {
+  text-decoration: none;
+}
